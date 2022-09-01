@@ -8,13 +8,13 @@ searchBtn.addEventListener("click", getMealList);
 
 // get meal list for provided ingredient(s)
 function getMealList() {
-    let searchInputTxt = document.getElementById("search-input").value.trim();
-    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`)
+    let searchInput = document.getElementById("search-input").value.trim();
+    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInput}`)
     .then(response => response.json())
     .then(data => {
         let html = "";
         if(data.meals){
-            data.meals.foreach(meal => {
+            data.meals.forEach(meal => {
                 html += `
                     <div class="meal-item" data-id="${meal.idMeal}">
 
