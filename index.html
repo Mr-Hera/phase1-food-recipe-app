@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Food Recipe App</title>
 </head>
 <body>
     <div class="container">
 
-        <div class="meal_wrapper">
+        <div class="meal-wrapper">
 
-            <div class="meal_search">
+            <div class="meal-search">
 
                 <h2 class="title">Find meals for your ingredient(s)</h2>
 
@@ -22,60 +23,60 @@
                     <cite>- James Oliver</cite>
                 </blockquote>
 
-                <div class="meal_search_box">
+                <div class="meal-search-box">
 
-                    <input type="text" class="search_control" placeholder="Type your ingredient(s)..." id="search_input">
+                    <input type="text" class="search-control" placeholder="Type your ingredient(s)..." id="search-input">
 
-                    <button type="submit" class="search_btn btn" id="search_btn">
+                    <button type="submit" class="search-btn btn" id="search-btn">
                         <i class="fas fa-search"></i>
                     </button>
 
                 </div>
             </div>
 
-            <div class="meal_result">
+            <div class="meal-result">
 
                 <h2 class="title">Your Search Results:</h2>
 
                 <div id="meal">
                     <!-- meal item -->
-                    <div class="meal_item">
+                    <div class="meal-item">
 
-                        <div class="meal_img">
+                        <div class="meal-img">
                             <img src="./public/images/food.jpg" alt="food">
                         </div>
 
-                        <div class="meal_name">
+                        <div class="meal-name">
                             <h3>Fries</h3>
-                            <a href="#" class="recipe_btn">View Recipe</a>
+                            <a href="#" class="recipe-btn">View Recipe</a>
                         </div>
 
                     </div>
                     <!-- end of meal item -->
                     <!-- meal item -->
-                    <div class="meal_item">
+                    <div class="meal-item">
 
-                        <div class="meal_img">
+                        <div class="meal-img">
                             <img src="./public/images/food.jpg" alt="food">
                         </div>
 
-                        <div class="meal_name">
+                        <div class="meal-name">
                             <h3>Fries</h3>
-                            <a href="#" class="recipe_btn">View Recipe</a>
+                            <a href="#" class="recipe-btn">View Recipe</a>
                         </div>
 
                     </div>
                     <!-- end of meal item -->
                     <!-- meal item -->
-                    <div class="meal_item">
+                    <div class="meal-item">
 
-                        <div class="meal_img">
+                        <div class="meal-img">
                             <img src="./public/images/food.jpg" alt="food">
                         </div>
 
-                        <div class="meal_name">
+                        <div class="meal-name">
                             <h3>Fries</h3>
-                            <a href="#" class="recipe_btn">View Recipe</a>
+                            <a href="#" class="recipe-btn">View Recipe</a>
                         </div>
 
                     </div>
@@ -84,36 +85,36 @@
 
             </div>
 
-            <div class="meal_details">
+            <div class="meal-details">
                 <!-- collapse recipe btn -->
-                <button class="btn recipe_close_btn" id="recipe_close_btn">
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
                     <i class="fas fa-times"></i>
                 </button>
+                <!-- recipe content -->
+                <div class="meal-details-content">
+                    <h2 class="recipe-title">Meal Name Here</h2>
+    
+                    <p class="recipe-category">Category Name</p>
+    
+                    <div class="recipe-instruct">
+    
+                        <h3>Instructions:</h3>
+    
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores id delectus excepturi harum, accusantium deleniti? Quaerat excepturi numquam possimus placeat at. Provident aliquid, sequi ratione unde quos fugit eos earum.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores id delectus excepturi harum, accusantium deleniti? Quaerat excepturi numquam possimus placeat at.</p>
+                    </div>
+    
+                    <div class="recipe-meal-img">
+                        <img src="./public/images/food.jpg" alt="food">
+                    </div>
+    
+                    <div class="recipe-link">
+                        <a href="#" target="_blank">Watch Video</a>
+                    </div>
+    
+                </div>
             </div>
 
-            <!-- recipe content -->
-            <div class="meal_details_content">
-                <h2 class="recipe_title">Meal Name Here</h2>
-
-                <p class="recipe_category">Category Name</p>
-
-                <div class="recipe_instruct">
-
-                    <h3>Instructions:</h3>
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores id delectus excepturi harum, accusantium deleniti? Quaerat excepturi numquam possimus placeat at. Provident aliquid, sequi ratione unde quos fugit eos earum.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores id delectus excepturi harum, accusantium deleniti? Quaerat excepturi numquam possimus placeat at.</p>
-                </div>
-
-                <div class="recipe_meal_img">
-                    <img src="./public/images/food.jpg" alt="food">
-                </div>
-
-                <div class="recipe_link">
-                    <a href="#" target="_blank">Watch Video</a>
-                </div>
-
-            </div>
 
         </div>
 
