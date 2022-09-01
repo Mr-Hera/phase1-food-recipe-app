@@ -257,6 +257,9 @@ body{
     .meal_item{
         margin: 0;
     }
+    .meal_details{
+        width: 700px
+    }
 }
 
 @media screen and (min-width: 992px){
