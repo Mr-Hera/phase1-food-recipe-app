@@ -48,7 +48,7 @@ function getMealRecipe(e) {
         fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealItem.dataset.id}`)
         .then(response => response.json())
         .then(data => {
-            console.log(data);
-        })
+            mealRecipeModal(data.meals)
+        });
     }
 }
