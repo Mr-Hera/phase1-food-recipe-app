@@ -3,8 +3,9 @@ const mealList = document.getElementById("meal");
 const mealDetailsContent = document.querySelector(".meal-details-content");
 const recipeCloseBtn = document.getElementById("recipe-close-btn");
 
-// searchBtn event listener
+// event listeners
 searchBtn.addEventListener("click", getMealList);
+mealList.addEventListener("click", getMealRecipe);
 
 // get meal list for provided ingredient(s)
 function getMealList() {
