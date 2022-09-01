@@ -131,7 +131,7 @@ body{
 }
 
 .meal-name{
-    padding: 1.5rem;
+    padding: 1.5rem 0.5rem;
 }
 
 .meal-name h3{
@@ -170,6 +170,10 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     color: #fff;
     background: var(--tenne-tawny);
     border-radius: 1rem;
@@ -207,7 +211,7 @@ body{
 }
 
 .meal-details-content p:not(.recipe-category){
-    margin: 1rem 0;
+    padding: 1rem 0;
 }
 
 .recipe-close-btn{
@@ -268,7 +272,7 @@ body{
 .recipe-meal-img img{
     width: 100px;
     height: 100px;
-    border-radius: 50px;
+    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
