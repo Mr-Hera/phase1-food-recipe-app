@@ -58,7 +58,7 @@ function getMealRecipe(e) {
 
 // modal
 function mealRecipeModal(meal) {
-    console.log(meal);
+    // console.log(meal);
     meal = meal[0];
     let html = `
         <h2 class="recipe-title">${meal.strMeal}</h2>

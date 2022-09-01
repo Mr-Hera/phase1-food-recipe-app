@@ -182,7 +182,7 @@ body{
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
     width: 90%;
-    width: 90%;
+    height: 90%;
     overflow-y: scroll;
     display: none;
     padding: 2rem 0;
@@ -330,7 +330,7 @@ body{
         margin: 0;
     }
     .meal-details{
-        width: 700px
+        width: 700px;
     }
 }
 
