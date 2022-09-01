@@ -52,3 +52,9 @@ function getMealRecipe(e) {
         });
     }
 }
+
+// modal
+function mealRecipeModal() {
+    console.log(meal)
+    meal = meal[0];
+}
