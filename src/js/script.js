@@ -54,7 +54,7 @@ function getMealRecipe(e) {
 }
 
 // modal
-function mealRecipeModal() {
+function mealRecipeModal(meal) {
     console.log(meal)
     meal = meal[0];
 }
