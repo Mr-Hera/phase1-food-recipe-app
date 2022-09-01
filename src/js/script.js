@@ -30,6 +30,7 @@ function getMealList() {
                     </div>
                 `;
             });
+            mealList.classList.add("notFound");
         } else {
             html = "¡Lo siento! We couldn't find that...";
             mealList.classList.add("notFound");
