@@ -30,6 +30,8 @@ function getMealList() {
                     </div>
                 `;
             });
+        } else {
+            html = "¡Lo siento! We couldn't find that..."
         }
         mealList.innerHTML = html;
     });
