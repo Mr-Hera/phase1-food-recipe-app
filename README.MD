@@ -7,7 +7,7 @@ PROJECT DESCRIPTION: Food Recipe App with API integration that has access to num
 
 PROJECT STACK: html, css, javascript
 
-LIVE SITE: Can be accessed via 
+LIVE SITE: Can be accessed via: https://mr-randell.github.io/phase1-food-recipe-app/
 
 -----------------------------
 Copyright & License
