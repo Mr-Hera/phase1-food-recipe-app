@@ -31,7 +31,8 @@ function getMealList() {
                 `;
             });
         } else {
-            html = "¡Lo siento! We couldn't find that..."
+            html = "¡Lo siento! We couldn't find that...";
+            mealList.classList.add("notFound");
         }
         mealList.innerHTML = html;
     });
