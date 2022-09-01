@@ -178,6 +178,10 @@ body{
     margin: 2rem;
 }
 
+.meal_details_content p{
+    margin: 1rem 0;
+}
+
 .recipe_close_btn{
     position: absolute;
     right: 2rem;
