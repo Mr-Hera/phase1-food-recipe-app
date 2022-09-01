@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800;900&display=swap');
 
+/* general */
+
 *{
     padding: 0;
     margin: 0;
@@ -18,7 +20,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* sth */
 .btn{
     font-family: inherit;
     cursor: pointer;
@@ -35,7 +36,6 @@ body{
     margin-bottom: 1rem;
 }
 
-/* sth */
 .container{
     min-height: 100vh;
 }
@@ -47,6 +47,8 @@ body{
     background: #fff;
     text-align: center;
 }
+
+/* meal search */
 
 .meal-search{
     margin: 2rem 0;
@@ -101,6 +103,8 @@ body{
 .search-btn:hover{
     background: var(--tenne-tawny-dark);
 }
+
+/* meal results */
 
 .meal-result{
     margin-top: 4rem;
@@ -292,7 +296,18 @@ body{
     opacity: 0.8;
 }
 
+/* not found */
+
+.notFound{
+    grid-template-columns: 1fr!important;
+    color: var(--tenne-tawny);
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 100%;
+}
+
 /* media queries */
+
 @media screen and (min-width: 600px){
     .meal-search-box{
         width: 540px;
