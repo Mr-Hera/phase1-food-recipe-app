@@ -220,6 +220,20 @@ body{
     display: block;
 }
 
+.recipe_link{
+    margin: 1.4rem 0;
+}
+
+.recipe_link a{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all 0.4s linear;
+}
+
+.recipe_link a:hover{
+    opacity: 0.8;
+}
 
 /* media queries */
 @media screen and (min-width: 600px){
